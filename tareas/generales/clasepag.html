@@ -1,0 +1,105 @@
+<form id="settingsForm">
+    <h2>Account Settings</h2>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+    </div>
+  
+    <div>
+      <label for="password">contraseña</label>
+      <input type="password" id="password" name="password">
+    </div>
+  
+    <div>
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="country1">pais 1</option>
+        <option value="country2">pais 2</option>
+        <option value="country3">pais 3</option>
+      </select>
+    </div>
+  
+    <div>
+      <label for="language">Language</label>
+      <select id="language" name="language">
+        <option value="language1">Language 1</option>
+        <option value="language2">Language 2</option>
+        <option value="language3">Language 3</option>
+      </select>
+    </div>
+  
+    <div>
+      <label for="firstName">nombre</label>
+      <input type="text" id="firstName" name="firstName">
+    </div>
+  
+    <div>
+      <label for="lastName">Apellido</label>
+      <input type="text" id="lastName" name="lastName">
+    </div>
+  
+    <div>
+      <label for="username">Usuario</label>
+      <input type="text" id="username" name="username">
+    </div>
+  
+    <div>
+      <label for="about">awdawdawdawd</label>
+      <textarea id="about" name="about"></textarea>
+    </div>
+  
+    <h2>Billing</h2>
+    <div>
+      <label>Change Plan</label>
+      <div>
+        <input type="radio" id="1GB" name="plan" value="1GB">
+        <label for="1GB">pago 1</label>
+      </div>
+      <div>
+        <input type="radio" id="5GB" name="plan" value="5GB">
+        <label for="5GB">Pago 2</label>
+      </div>
+      <div>
+        <input type="radio" id="15GB" name="plan" value="15GB">
+        <label for="15GB">Pago 3</label>
+      </div>
+    </div>
+  
+    <h2>Notifications</h2>
+    <div>
+      <label>
+        <input type="checkbox" name="accountActivity"> siiii
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" name="newForYou"> ssoooooooo
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" name="meetupsNearYou"> adawdawdawdawd
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" name="companyNews"> adwawdawdawdad
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" name="weeklyJobs"> adwawdawdawdawd
+      </label>
+    </div>
+  
+    <div>
+      <button type="button" onclick="resetForm()">Cancel</button>
+      <button type="submit">Save Settings</button>
+    </div>
+  </form>
+  
+  <script>
+    function resetForm() {
+      document.getElementById("settingsForm").reset();
+    }
+  </script>

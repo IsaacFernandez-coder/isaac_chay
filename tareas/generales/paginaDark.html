@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página HTML</title>
+    <link rel="icon" href="favicon.ico">
+    <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="paginaDark.html">Acerca de</a></li>
+        <li><a href="numeros.html">Contacto</a></li>
+        <li><a href="normas.html">Contacto</a></li>
+        <li><a href="tarea.html">muñu</a></li>
+    </ul>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi página</h1>
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Sección 1</a></li>
+                <li><a href="#seccion2">Sección 2</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="seccion1">
+            <h2>Sección 1</h2>
+            <p>Este es un párrafo con un <span>texto en línea</span>. <br> Aquí hay un salto de línea.</p>
+            <hr>
+            <img src="imagen.png" alt="google-chrome.png">
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+        
+        <section id="seccion2">
+            <h3>Sección 2</h3>
+            <table border="1">
+                <tr>
+                    <th>Encabezado 1</th>
+                    <th>Encabezado 2</th>
+                </tr>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+            </table>
+            <article>
+                <h4>Artículo relacionado</h4>
+                <p>Este es un artículo con información adicional.</p>
+            </article>
+            <aside>
+                <h5>Contenido Relacionado</h5>
+                <p>Este contenido está relacionado con la sección principal.</p>
+            </aside>
+        </section>
+        
+        <section id="formulario">
+            <h6>Formulario de Contacto</h6>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea><br>
+                
+                <label for="opcion">Elige una opción:</label>
+                <select id="opcion" name="opcion">
+                    <option value="1">Opción 1</option>
+                    <option value="2">Opción 2</option>
+                </select><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Derechos reservados &copy; 2025</p>
+    </footer>
+</body>
+</html>
